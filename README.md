@@ -12,5 +12,5 @@ Lastly, it writes the created image to a file.
 * Main.java is a simple greyscale coloring scheme that maps the noise to a range of [0, 255] and uses that as the RGB value of the hexagon.
 * MainColorful.java uses the same principles as the greyscale version, but generates 3 channels of noise and uses them to separately specify the R, G, and B value of the color for each hexagon.
 * MainDiscrete.java is also greyscale but changes it such that RGB values can only be multiples of X instead of multiples of 1.
-* MainDiscreteColorful.java is the same as MainDiscrete.java but uses the 3 channels of noise like MainColorful.java
-* MainInterpolate.java is very similar to Main.java but instead of interpolating between BLACK and WHITE it uses any two colors
+* MainDiscreteColorful.java is the same as MainDiscrete.java but uses the 3 channels of noise like MainColorful.java.
+* MainInterpolate.java is very similar to Main.java but instead of interpolating between BLACK and WHITE it uses any two colors.
