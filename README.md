@@ -3,10 +3,7 @@
 This project is designed to create interesting images using noise applied to a hexagon grid.
 
 Here's an example of the output:
-
-![The example image could not be displayed!][example_image]
-
-[example_image]: https://github.com/daviscook477/NoiseHexagons/examples/noise_hexagons_colorful.png "Noise Hexagons Colorful"
+![The example image could not be displayed!](/blob/master/examples/noise_hexagons_colorful.png?raw=true "Noise Hexagons Colorful")
 
 The project works by first constructing a grid of hexagons and keeping track of the center point of each hexagon. Then it uses some scheme to determine the color of the hexagon by looking at its center point. It then colors each hexagon according to that scheme.
 Lastly, it writes the created image to a file.
